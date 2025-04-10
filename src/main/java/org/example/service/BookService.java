@@ -1,6 +1,9 @@
-package org.example;
+package org.example.service;
 
 import lombok.extern.slf4j.Slf4j;
+import org.example.exception.ResourceNotFoundException;
+import org.example.model.Book;
+import org.example.repository.BookRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
